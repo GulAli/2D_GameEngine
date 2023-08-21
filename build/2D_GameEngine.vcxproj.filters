@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\GameDevelopment\(3) 2D_GameEngine - Tilemaps\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GameDevelopment\(3) 2D_GameEngine - Tilemaps\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GameDevelopment\(3) 2D_GameEngine - Tilemaps\TextureManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GameDevelopment\(3) 2D_GameEngine - Tilemaps\GameObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\GameDevelopment\(3) 2D_GameEngine - Tilemaps\Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\GameDevelopment\(3) 2D_GameEngine - Tilemaps\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4825F395-A82C-3FC4-9F01-59AC710C3EF2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

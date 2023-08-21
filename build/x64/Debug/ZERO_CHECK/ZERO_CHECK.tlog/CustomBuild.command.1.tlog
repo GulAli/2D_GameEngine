@@ -1,0 +1,10 @@
+^F:\GAMEDEVELOPMENT\(3) 2D_GAMEENGINE - TILEMAPS\BUILD\CMAKEFILES\7A1FDA1B1B867D47FC51761BBA5D178A\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SF:/GameDevelopment/(3) 2D_GameEngine - Tilemaps" "-BF:/GameDevelopment/(3) 2D_GameEngine - Tilemaps/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "F:/GameDevelopment/(3) 2D_GameEngine - Tilemaps/build/2D_GameEngine.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
